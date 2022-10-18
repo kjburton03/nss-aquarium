@@ -1,0 +1,76 @@
+body {
+    /* background-color: powderblue; */
+    /* background-image: url("water_11zon.jpeg"); */
+    background-size: cover;
+    /* background-image: https://i.pinimg.com/originals/ca/3d/b2/ca3db2e7d89c9765a2e518d9b7d6915d.jpg; */
+    background-image: url("https://images.pexels.com/photos/1074505/pexels-photo-1074505.jpeg?auto=compress&cs=tinysrgb&w=175&fit=crop&h=275&dpr=2");
+    background-color: #cccccc;
+    width: 100%;
+    height: 400px;
+
+}
+img {
+    border-style: groove;
+    
+}
+.aside {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    align-items:flex-end;
+
+
+}
+.tips{
+background: rgba(0, 251, 29, 0.3);
+}
+header {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%
+    
+}
+fieldset {
+    background-color: aqua;
+    /* text-align: center; */
+}
+.fishies {
+    text-align: left;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bigBoxes {
+    width: 400px;
+    height: 1200px;
+    flex-direction: center;
+    /* background-color: aquamarine; */
+    border-color: lightcoral;
+    border-style:double;
+    border-width: 6px;
+    background: rgba(0, 151, 19, 0.3);
+    text-align: center;
+    justify-content: space-around;
+}
+.themBiggens {
+    justify-content: space-around;
+}
+
+.tippys {
+    font-family:cursive;
+}
+.babyBox {
+    width: 200px;
+    height: 300px;
+    background-color: ;
+}
+legend {
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+footer {
+    background-color: aliceblue;
+}
