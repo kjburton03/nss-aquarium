@@ -11,6 +11,9 @@ body {
 }
 img {
     border-style: groove;
+    height:110px;
+    width: 120px;
+
     
 }
 .aside {
@@ -19,8 +22,16 @@ img {
     flex-direction: column;
     justify-content:right;
     align-items:flex-end;
+    position: s
 
+}
+.container  {
+    display: flex;
+    
 
+}
+section {
+    flex-direction: row;
 }
 .tips{
 background: rgba(0, 251, 29, 0.3);
@@ -41,10 +52,10 @@ fieldset {
     color: blueviolet;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.bigBoxes {
+.themBiggens {
     width: 400px;
     height: 1200px;
-    flex-direction: center;
+    flex-direction: row;
     /* background-color: aquamarine; */
     border-color: lightcoral;
     border-style:double;
@@ -52,6 +63,7 @@ fieldset {
     background: rgba(0, 151, 19, 0.3);
     text-align: center;
     justify-content: space-around;
+
 }
 .themBiggens {
     justify-content: space-around;
@@ -64,6 +76,8 @@ fieldset {
     width: 200px;
     height: 300px;
     background-color: ;
+    display: inline-block; 
+    margin: 0, auto;
 }
 legend {
     font-size: large;

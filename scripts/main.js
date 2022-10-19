@@ -1,8 +1,13 @@
+import { FishList } from "./FishList.js"
 
-import { getFish } from './database.js'
+/*
+    What is the CSS selector for the element where you
+    want to display the fish?
 
-const allFish = getFish()
+    Use . for elements with a "class" attribute
+    Use # for elements with an "id" attribute
+ */
+const parentHTMLElement = document.querySelector(".fishBoxes")
 
-for (const fish of allFish) {
-    console.log(fish)
-}
+
+parentHTMLElement.innerHTML = FishList()
